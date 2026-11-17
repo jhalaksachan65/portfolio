@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jhalak Sachan | IT Trainer Portfolio</title>
+  <meta name="description" content="Portfolio of Jhalak Sachan, CITS trainee (CSA) at NSTI Kanpur.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAVIGATION ============ -->
+<header class="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">Jhalak<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle light/dark theme">🌓</button>
+      <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ 1. HOME ============ -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Hello, I’m</p>
+      <h1>Jhalak Sachan</h1>
+      <h2>IT Trainer</h2>
+      <p class="lead">CITS trainee at NSTI Kanpur (Trade: CSA), skilled in Python, MySQL and computer fundamentals, and eager to learn and share technology.</p>
+      <div class="btn-row">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="assets/documents/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <!-- Put your photo at assets/images/profile.webp. Initials show if it is missing. -->
+      <div class="photo-frame">
+        <img src="assets/images/profile.webp" alt="Profile photo of Jhalak Sachan"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <span class="photo-fallback">JS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. ABOUT ============ -->
+<section id="about" class="section">
+  <div class="container narrow reveal">
+    <h2 class="section-title">About Me</h2>
+    <p>I am Jhalak Sachan from Kanpur, Uttar Pradesh. I completed my ITI from Govt ITI Bhognipur in 2026 and am now pursuing the Craft Instructor Training Scheme (CITS) in Computer Science &amp; Application (CSA) at NSTI Kanpur.</p>
+    <p>I am building a strong base in Python, MySQL and computer fundamentals, with the goal of becoming an IT trainer who explains technology in a clear and simple way.</p>
+  </div>
+</section>
+
+<!-- ============ 3. EDUCATION ============ -->
+<section id="education" class="section alt">
+  <div class="container reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="cards">
+      <article class="card">
+        <span class="tag">Current</span>
+        <h3>CITS Trainee</h3>
+        <p>NSTI Kanpur</p>
+        <p class="muted">Trade: CSA &middot; Session 2026–27</p>
+      </article>
+      <article class="card">
+        <span class="tag">Previous</span>
+        <h3>ITI</h3>
+        <p>Govt ITI Bhognipur</p>
+        <p class="muted">Passing Year: 2026</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. SKILLS ============ -->
+<section id="skills" class="section">
+  <div class="container reveal">
+    <h2 class="section-title">Skills</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Core Trade Skills</h3>
+        <ul class="chips"><li>Python</li><li>MySQL</li><li>Computer Fundamentals</li></ul>
+      </article>
+      <article class="card">
+        <h3>Computer Skills</h3>
+        <ul class="chips"><li>MS Office</li><li>Excel</li></ul>
+      </article>
+      <article class="card">
+        <h3>Software &amp; Tools</h3>
+        <ul class="chips"><li>VS Code</li></ul>
+      </article>
+      <article class="card">
+        <h3>Other Skills</h3>
+        <ul class="chips"><li>Communication</li><li>Problem Solving</li><li>Teamwork</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. PROJECTS ============
+  Hidden because no project details were provided.
+  TO SHOW: delete the word "hidden" from the <section> tag below,
+  then edit/duplicate the project card.
+-->
+<section id="projects" class="section alt" hidden>
+  <div class="container reveal">
+    <h2 class="section-title">Projects</h2>
+    <div class="cards">
+      <article class="card project">
+        <img src="assets/images/project1.jpg" alt="Project 1 screenshot" onerror="this.style.display='none'">
+        <h3>Project Title</h3>
+        <p>Short description of the project.</p>
+        <p class="muted">Tools used: ___</p>
+        <a href="#" class="link">View Project →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. INTERNSHIP / TRAINING ============
+  Hidden because no details were provided.
+  TO SHOW: delete the word "hidden" and fill in the details.
+-->
+<section id="training" class="section" hidden>
+  <div class="container reveal">
+    <h2 class="section-title">Internship / Training</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Role</h3>
+        <p>Organization</p>
+        <p class="muted">Duration: ___</p>
+        <p>Skills learned: ___</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. CERTIFICATIONS ============ -->
+<section id="certifications" class="section alt">
+  <div class="container reveal">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>AI and Cyber Security</h3>
+        <p>NIIT</p>
+        <p class="muted">2026</p>
+      </article>
+      <article class="card">
+        <h3>AI Literacy</h3>
+        <p>IBM SkillBuild</p>
+        <p class="muted">2026</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. CONTACT ============ -->
+<section id="contact" class="section">
+  <div class="container narrow reveal">
+    <h2 class="section-title">Contact</h2>
+    <p>Let’s connect. You can reach me through any of these.</p>
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:jhalaksachan634@gmail.com">jhalaksachan634@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+917985654893">7985654893</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jhalaksachan634" target="_blank" rel="noopener">linkedin.com/in/jhalaksachan634</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/jhalaksachan65" target="_blank" rel="noopener">github.com/jhalaksachan65</a></li>
+      <li><strong>Location:</strong> Kanpur, Uttar Pradesh</li>
+    </ul>
+    <a href="mailto:jhalaksachan634@gmail.com" class="btn btn-primary">Send an Email</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Jhalak Sachan. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
